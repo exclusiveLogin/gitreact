@@ -1,0 +1,16 @@
+.userCard{
+    display: flex;
+    min-width: 400px;
+    margin: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);   
+}
+.avatar{
+    flex: 0 0 120px;
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+}
+.description {
+    flex-grow: 1;
+    background-color: rgb(221, 221, 221);
+}
